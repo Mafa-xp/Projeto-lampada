@@ -1,4 +1,14 @@
-#restaurar{
+Div{
+    height: 150px;
+    width: 330px;
+}
+button{
+    height: 30px;
+    width: 180px;
+    font-size: 1rem;
+}
+@media(min-width: 1024px){
+    #restaurar{
 display: none;
 }
 body{
@@ -38,4 +48,6 @@ button{
 
 img{
     height: 400px;
+
+}
 }
