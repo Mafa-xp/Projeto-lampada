@@ -1,14 +1,4 @@
-Div{
-    height: 120px;
-    width: 266px;
-}
-button{
-    height: 30px;
-    width: 180px;
-    font-size: 1rem;
-}
-@media(min-width: 1024px){
-    #restaurar{
+#restaurar{
 display: none;
 }
 body{
@@ -19,10 +9,9 @@ body{
     flex-direction: column;  
     background-color: #272626;
 }
-
 Div{
-    height: 180px;
-    width: 400px;
+    height: 120px;
+    width: 250px;
     border: 5px solid #ffe4c4;
     border-radius: 20px;
     display: flex;
@@ -30,11 +19,11 @@ Div{
     justify-content: center;
     align-items: center;
     background-color: #27262688;
-
 }
 button{
-    height: 50px;
-    width: 300px;
+    height: 30px;
+    width: 180px;
+    font-size: 1rem;
     margin: 10px;
     border-radius: 20px;
     background-color: #272626;
@@ -43,12 +32,20 @@ button{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1rem;
     cursor: pointer;
-    
 }
-
 img{
     height: 400px;
+}
+@media(min-width: 1024px){
+    
+    Div{
+        height: 180px;
+        width: 400px;
+    }
+    button{
+        height: 50px;
+        width: 300px; 
+    }
+}
 
-}
-}
 
